@@ -14,7 +14,7 @@ function App() {
                   media="(max-width: 720px)"
                   srcSet={bgImageProductMobile}
                 />
-                <img srcSet={bgImageProductDesktop} alt="product 1" />
+                <img src={bgImageProductDesktop} alt="product 1" />
               </picture>
             </div>
             <div className="px-6 md:w-1/2 py-6">
